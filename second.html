@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<div id="result-screen">
+
+    <h1 id="result-title"></h1>
+
+    <p id="final-score"></p>
+
+    <button id="restart-btn">
+        To play again Refresh Page button  not made yet!
+    </button>
+
+</div>
+<body>
+
+    <h2>Rock Paper Scissor</h2>
+
+    <div class="images">
+
+        <div class="image" id="rock">
+            <img src="rock.png">
+        </div>
+
+        <div class="image" id="scissor">
+            <img src="scissor.png">
+        </div>
+
+        <div class="image" id="paper">
+            <img src="paper.png">
+        </div>
+
+    </div>
+
+    <div class="scoreboard">
+
+        <div class="yourscores">
+            <p id="ys">0</p>
+            <p>Your Score</p>
+        </div>
+
+        <div class="compscore">
+            <p id="cs">0</p>
+            <p>BOT Score</p>
+        </div>
+
+    </div>
+
+    <div id="msg" class="game-ui">
+        Choose Your Move 🎯
+    </div>
+
+    <!-- Battle Screen -->
+
+   <div id="battle-screen">
+
+    <div id="impact">💥</div>
+
+    <div class="battle-side">
+        <h2>YOU</h2>
+        <img id="user-battle">
+    </div>
+
+    <div id="vs">⚔️</div>
+
+    <div id="lightning">⚡⚡⚡</div>
+
+    <div class="battle-side">
+        <h2>BOT</h2>
+        <img id="comp-battle">
+    </div>
+
+</div>
+
+    <script src="second.js"></script>
+
+</body>
+</html>
